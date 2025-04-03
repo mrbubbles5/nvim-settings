@@ -1,4 +1,5 @@
 return {
+  {"neovim/nvim-lspconfig"},
   -- Rust tools
   { "mfussenegger/nvim-dap" }, -- Debug Adapter Protocol (DAP) for debugging
   { "rcarriga/nvim-dap-ui", dependencies = { "nvim-neotest/nvim-nio" } }, -- Debug UI
